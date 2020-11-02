@@ -42,7 +42,7 @@ body{
   }
   
   .client-testimonial-switch {
-    background-color: var(--orange-color);
+    background-color: #000;
     border: none;
     border-radius: 50%;
     cursor: pointer;
@@ -56,19 +56,4 @@ body{
     transform: scale(1.5);
   }
 
-  .client-details{
-      display: flex;
-      margin-top: 20px;
-      text-align: left;
 
-  }
-
-  .client-details img{
-      width: 10%;
-      margin-right: 20px;
-      border-radius: 50%;
-      -webkit-border-radius: 50%;
-      -moz-border-radius: 50%;
-      -ms-border-radius: 50%;
-      -o-border-radius: 50%;
-}
