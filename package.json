@@ -1,0 +1,22 @@
+{
+  "name": "sanremo",
+  "version": "1.0.0",
+  "description": "landing page for a client",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ajazz1998/Sanremo.git"
+  },
+  "author": "Ajazz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ajazz1998/Sanremo/issues"
+  },
+  "homepage": "https://github.com/Ajazz1998/Sanremo#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
