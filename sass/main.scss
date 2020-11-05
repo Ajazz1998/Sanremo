@@ -44,15 +44,20 @@ body{
     }
 
     .testimonial-switchs{
+      position: absolute;
+      top: 200px;
+      right: 200px;
       display: grid;
+      grid-template-columns: repeat(1, 1fr);
 
         .client-testimonial-switch {
           background-color: #000;
           border: none;
           border-radius: 50%;
+        
           cursor: pointer;
-          height: .6rem;
-          margin: 0 .2rem;
+          height: 1rem;
+          margin: .2rem;
           outline: none;
           width: .6rem;
         }
