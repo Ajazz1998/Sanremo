@@ -6,6 +6,7 @@
 }
 
 
+
 body{
     line-height: 1.4;
     letter-spacing: 1px;
@@ -17,37 +18,38 @@ body{
     display: none;
 }
 
+.grid-2{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.header{
+  position: relative;
 
 
+    .client-testimonials-container  {
+      overflow: hidden;
+      color: var(--secondary-color);
+      padding: 0 200px;
+      text-align: center;
 
-
-
-.client-testimonials-container  {
-    overflow: hidden;
-    color: var(--secondary-color);
-    padding: 0 200px;
-    text-align: center;
-
-        .client-testimonial-item {
-            border-left: 5px solid var(--orange-color);
-            font-size: .95rem;
-            margin: 2em 0;
-            padding: 0 1em;
-            color: var(--second-color);
-        }
-  }
-  
-
-  
-  .client-name {
-    font-size: 1rem;
-  }
+          .client-testimonial-item {
+              border-left: 5px solid var(--orange-color);
+              font-size: .95rem;
+              align-items: center;
+              margin: 2em 0;
+              padding: 0 1em;
+              color: var(--second-color);
+          }
+    }
   
   .client-testimonial-switch {
     background-color: #000;
     border: none;
     border-radius: 50%;
     cursor: pointer;
+    position: absolute;
+    right: 0;
     height: .6rem;
     margin: 0 .2rem;
     outline: none;
@@ -57,5 +59,7 @@ body{
   .active-carousel-switch {
     transform: scale(1.5);
   }
+
+}
 
 

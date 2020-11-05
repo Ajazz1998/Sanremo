@@ -24,12 +24,12 @@ function showContainer(n) {
     carouselCounter = 1;
   }
 
-  testimonialCarouselContainer[carouselCounter - 1].style.display = 'block';
+  testimonialCarouselContainer[carouselCounter - 1].style.display = 'flex';
   testimonialCarouselContainer[carouselCounter - 1].classList.add('fast-fade-in-left');
   carouselSwitch[carouselCounter - 1].classList.add('active-carousel-switch');
 
   carouselCounter++;
-  setTimeout(showContainer, 30000);
+  setTimeout(showContainer, 300000);
 
 }
 
