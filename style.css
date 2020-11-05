@@ -30,16 +30,16 @@ body {
       margin: 2em 0;
       padding: 0 1em;
       color: var(--second-color); }
-  .header .client-testimonial-switch {
-    background-color: #000;
-    border: none;
-    border-radius: 50%;
-    cursor: pointer;
-    position: absolute;
-    right: 0;
-    height: .6rem;
-    margin: 0 .2rem;
-    outline: none;
-    width: .6rem; }
-  .header .active-carousel-switch {
-    transform: scale(1.5); }
+  .header .testimonial-switchs {
+    display: block; }
+    .header .testimonial-switchs .client-testimonial-switch {
+      background-color: #000;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      height: .6rem;
+      margin: 0 .2rem;
+      outline: none;
+      width: .6rem; }
+    .header .testimonial-switchs .active-carousel-switch {
+      transform: scale(1.5); }

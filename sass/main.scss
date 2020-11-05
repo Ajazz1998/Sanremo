@@ -42,23 +42,27 @@ body{
               color: var(--second-color);
           }
     }
+
+    .testimonial-switchs{
+      display: grid;
+
+        .client-testimonial-switch {
+          background-color: #000;
+          border: none;
+          border-radius: 50%;
+          cursor: pointer;
+          height: .6rem;
+          margin: 0 .2rem;
+          outline: none;
+          width: .6rem;
+        }
+        
+        .active-carousel-switch {
+          transform: scale(1.5);
+        }
+    }
   
-  .client-testimonial-switch {
-    background-color: #000;
-    border: none;
-    border-radius: 50%;
-    cursor: pointer;
-    position: absolute;
-    right: 0;
-    height: .6rem;
-    margin: 0 .2rem;
-    outline: none;
-    width: .6rem;
-  }
-  
-  .active-carousel-switch {
-    transform: scale(1.5);
-  }
+
 
 }
 
