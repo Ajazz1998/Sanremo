@@ -17,8 +17,7 @@ body {
   grid-template-columns: repeat(2, 1fr); }
 
 .header {
-  position: relative;
-  background-color:#efefef !important; }
+  position: relative; }
   .header .client-testimonials-container {
     overflow: hidden;
     color: var(--secondary-color);
