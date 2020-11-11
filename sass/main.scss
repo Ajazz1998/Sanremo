@@ -28,6 +28,14 @@ p{
   text-transform: none;
 }
 
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
 .btn{
   text-transform: capitalize;
   border: 0;
@@ -43,16 +51,22 @@ p{
 
 .header{
   position: relative;
+  height: 100vh;
 
     .nav{
       display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #f6f6f8;;
+      padding: 10px 30px;
+      height: 8vh;
     }
 
     .sale-testimonials-container  {
       overflow: hidden;
       color: var(--secondary-color);
-      padding: 0 200px;
-      background-color: rgb(241, 241, 241);
+      padding: 100px 200px;
+      height: 92vh;
           .sale-testimonial-item {
               border-left: 5px solid var(--orange-color);
               font-size: .95rem;
@@ -76,7 +90,7 @@ p{
 
     .testimonial-switchs{
       position: absolute;
-      top: 200px;
+      top: 300px;
       right: 100px;
       display: grid;
       grid-template-columns: repeat(1, 1fr);

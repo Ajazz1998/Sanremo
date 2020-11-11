@@ -19,6 +19,12 @@ h1 {
 p {
   text-transform: none; }
 
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
 .btn {
   text-transform: capitalize;
   border: 0;
@@ -31,12 +37,20 @@ p {
   grid-template-columns: repeat(2, 1fr); }
 
 .header {
-  position: relative; }
+  position: relative;
+  height: 100vh; }
+  .header .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f6f6f8;
+    padding: 10px 30px;
+    height: 8vh; }
   .header .sale-testimonials-container {
     overflow: hidden;
     color: var(--secondary-color);
-    padding: 0 200px;
-    background-color: #f1f1f1; }
+    padding: 100px 200px;
+    height: 92vh; }
     .header .sale-testimonials-container .sale-testimonial-item {
       border-left: 5px solid var(--orange-color);
       font-size: .95rem;
