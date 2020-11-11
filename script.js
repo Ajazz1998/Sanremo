@@ -1,8 +1,8 @@
 //-------- This code is for slide show
 
 
-const testimonialCarouselContainer = document.querySelectorAll('.client-testimonial-item');
-const carouselSwitch = document.querySelectorAll('.client-testimonial-switch');
+const testimonialCarouselContainer = document.querySelectorAll('.sale-testimonial-item');
+const carouselSwitch = document.querySelectorAll('.sale-testimonial-switch');
 
 let carouselCounter = 1;
 showContainer(carouselCounter);

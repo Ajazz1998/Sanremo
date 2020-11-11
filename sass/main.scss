@@ -11,11 +11,29 @@ body{
     line-height: 1.4;
     letter-spacing: 1px;
     font-family: 'Work Sans', sans-serif;
+    text-transform: capitalize;
 }
 
 
 .fa-bars{
     display: none;
+}
+
+
+h1{
+  font-size: 65px;
+}
+
+p{
+  text-transform: none;
+}
+
+.btn{
+  text-transform: capitalize;
+  border: 0;
+  outline: none;
+  padding: 10px 15px;
+  cursor: pointer;
 }
 
 .grid-2{
@@ -26,19 +44,33 @@ body{
 .header{
   position: relative;
 
-    .client-testimonials-container  {
+    .nav{
+      display: flex;
+    }
+
+    .sale-testimonials-container  {
       overflow: hidden;
       color: var(--secondary-color);
       padding: 0 200px;
-      text-align: center;
-
-          .client-testimonial-item {
+      background-color: rgb(241, 241, 241);
+          .sale-testimonial-item {
               border-left: 5px solid var(--orange-color);
               font-size: .95rem;
               align-items: center;
               margin: 2em 0;
               padding: 0 1em;
               color: var(--second-color);
+
+                .colletion{
+                  float:left;
+                  margin-right: 70px;
+                  width:550px;
+
+                   p{
+                     font-size: 20px;
+                     text-transform: uppercase;
+                   }
+                }
           }
     }
 
@@ -49,7 +81,7 @@ body{
       display: grid;
       grid-template-columns: repeat(1, 1fr);
 
-        .client-testimonial-switch {
+        .sale-testimonial-switch {
           background-color: #000;
           border: none;        
           cursor: pointer;
