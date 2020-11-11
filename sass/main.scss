@@ -12,6 +12,8 @@ body{
     letter-spacing: 1px;
     font-family: 'Work Sans', sans-serif;
     text-transform: capitalize;
+    --light-sky:skyblue;
+
 }
 
 
@@ -36,6 +38,10 @@ a{
   text-decoration: none;
 }
 
+span{
+  color: var(--light-sky);
+}
+
 .btn{
   text-transform: capitalize;
   border: 0;
@@ -58,7 +64,7 @@ a{
       justify-content: space-between;
       align-items: center;
       background-color: #f6f6f8;;
-      padding: 10px 30px;
+      padding: 10px 100px;
       height: 8vh;
     }
 
@@ -84,6 +90,12 @@ a{
                      font-size: 20px;
                      text-transform: uppercase;
                    }
+                }
+
+                img{
+
+                  max-width: 350px;
+                  width: 100%;
                 }
           }
     }
