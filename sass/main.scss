@@ -23,6 +23,13 @@ body{
     display: none;
 }
 
+.row{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1070px;
+}
+
 
 h1{
   font-size: 65px;
@@ -80,6 +87,7 @@ span{
       background-color: #f6f6f8;;
       padding: 10px 100px;
       height: 8vh;
+      box-shadow: 0 0.5rem 1.5rem rgba(0,0,0,.1);
         
         .logo{
           font-size: 27px;
@@ -198,9 +206,15 @@ span{
           -o-transform: scale(1.7);
         }
     }
-  
 
+}
 
+.topsells{
+  padding: 50px 0;
+
+   .grid-2 .box-1{
+     background: url('/images/news4.jpg');
+   }
 }
 
 
