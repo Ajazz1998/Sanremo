@@ -93,9 +93,8 @@ span{
           -moz-transition: 200ms all ease-in-out;
           -ms-transition: 200ms all ease-in-out;
           -o-transition: 200ms all ease-in-out;
-          &:hover;
-
-{
+            
+          &:hover{
               border: 1px solid var(--black-color);
               border-radius: 13px;
               -webkit-border-radius: 13px;
@@ -105,13 +104,19 @@ span{
            }
         }
 
+        .top_icons i{
+          margin: 0 10px;
+          font-size: 25px;
+          cursor: pointer;
+        }
+
 
     }
 
     .sale-testimonials-container  {
       overflow: hidden;
       color: var(--secondary-color);
-      padding: 100px 200px;
+      padding: 50px 200px;
       height: 92vh;
           .sale-testimonial-item {
               border-left: 5px solid var(--orange-color);

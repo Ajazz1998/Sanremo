@@ -66,7 +66,12 @@ span {
     .header .nav ul a {
       margin: 0 10px;
       color: var(--black-color);
-      padding: 11px 16px; }
+      padding: 10px 15px;
+      transition: 200ms all ease-in-out;
+      -webkit-transition: 200ms all ease-in-out;
+      -moz-transition: 200ms all ease-in-out;
+      -ms-transition: 200ms all ease-in-out;
+      -o-transition: 200ms all ease-in-out; }
       .header .nav ul a:hover {
         border: 1px solid var(--black-color);
         border-radius: 13px;
@@ -74,10 +79,14 @@ span {
         -moz-border-radius: 13px;
         -ms-border-radius: 13px;
         -o-border-radius: 13px; }
+    .header .nav .top_icons i {
+      margin: 0 10px;
+      font-size: 25px;
+      cursor: pointer; }
   .header .sale-testimonials-container {
     overflow: hidden;
     color: var(--secondary-color);
-    padding: 100px 200px;
+    padding: 50px 200px;
     height: 92vh; }
     .header .sale-testimonials-container .sale-testimonial-item {
       border-left: 5px solid var(--orange-color);
