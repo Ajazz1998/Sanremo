@@ -14,7 +14,8 @@ body{
     text-transform: capitalize;
     --light-sky:skyblue;
     --black-color: #000;
-
+    --white-color: #fff;
+    --orange-color: #ffa800;;
 }
 
 
@@ -40,7 +41,8 @@ a{
 }
 
 span{
-  color: var(--light-sky);
+  color: var(--orange-color);
+  font-size: 70px;
 }
 
 
@@ -58,7 +60,7 @@ span{
   text-transform: capitalize;
   border: 0;
   outline: none;
-  padding: 10px 15px;
+  padding: 10px 20px;
   cursor: pointer;
 }
 
@@ -107,7 +109,12 @@ span{
         .top_icons i{
           margin: 0 10px;
           font-size: 25px;
+          font-weight: 700;
           cursor: pointer;
+
+            &:hover{
+              color: var(--light-sky);
+            }
         }
 
 
@@ -119,7 +126,7 @@ span{
       padding: 50px 200px;
       height: 92vh;
           .sale-testimonial-item {
-              border-left: 5px solid var(--orange-color);
+              
               font-size: .95rem;
               align-items: center;
               margin: 2em 0;
@@ -128,12 +135,33 @@ span{
 
                 .colletion{
                   float:left;
-                  margin-right: 70px;
+                  border-left: 5px solid var(--orange-color);
+                  margin-right: 40px;
+                  padding-left: 30px;
+
                   width:550px;
 
                    p{
                      font-size: 20px;
                      text-transform: uppercase;
+                   }
+
+                   a button{
+                     background: var(--black-color);
+                     font-size: 17px;
+                     border: 1px solid var(--black-color);
+                     color: var(--white-color);
+                     transition: 200ms background ;
+                     -webkit-transition: 200ms background ;
+                     -moz-transition: 200ms background ;
+                     -ms-transition: 200ms background ;
+                     -o-transition: 200ms background ;
+                     
+                       &:hover{
+                          background: var(--white-color);
+                          color: var(--black-color);
+                          border: 1px solid var(--black-color)
+                     }
                    }
                 }
 
