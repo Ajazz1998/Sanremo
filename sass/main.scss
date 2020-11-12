@@ -44,6 +44,16 @@ span{
 }
 
 
+.active{
+  padding: 10px 15px;
+  border: 1px solid var(--black-color);
+  border-radius: 13px;
+  -webkit-border-radius: 13px;
+  -moz-border-radius: 13px;
+  -ms-border-radius: 13px;
+  -o-border-radius: 13px;
+}
+
 .btn{
   text-transform: capitalize;
   border: 0;
@@ -70,14 +80,32 @@ span{
       height: 8vh;
         
         .logo{
-          font-size: 17px;
+          font-size: 27px;
           font-weight: 700;
         }
 
         ul a{
           margin: 0 10px;
           color: var(--black-color);
+          padding: 10px 15px;
+          transition: 200ms all ease-in-out;
+          -webkit-transition: 200ms all ease-in-out;
+          -moz-transition: 200ms all ease-in-out;
+          -ms-transition: 200ms all ease-in-out;
+          -o-transition: 200ms all ease-in-out;
+          &:hover;
+
+{
+              border: 1px solid var(--black-color);
+              border-radius: 13px;
+              -webkit-border-radius: 13px;
+              -moz-border-radius: 13px;
+              -ms-border-radius: 13px;
+              -o-border-radius: 13px;
+           }
         }
+
+
     }
 
     .sale-testimonials-container  {

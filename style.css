@@ -9,7 +9,8 @@ body {
   letter-spacing: 1px;
   font-family: 'Work Sans', sans-serif;
   text-transform: capitalize;
-  --light-sky:skyblue; }
+  --light-sky:skyblue;
+  --black-color: #000; }
 
 .fa-bars {
   display: none; }
@@ -28,6 +29,15 @@ a {
 
 span {
   color: var(--light-sky); }
+
+.active {
+  padding: 10px 15px;
+  border: 1px solid var(--black-color);
+  border-radius: 13px;
+  -webkit-border-radius: 13px;
+  -moz-border-radius: 13px;
+  -ms-border-radius: 13px;
+  -o-border-radius: 13px; }
 
 .btn {
   text-transform: capitalize;
@@ -50,6 +60,20 @@ span {
     background-color: #f6f6f8;
     padding: 10px 100px;
     height: 8vh; }
+    .header .nav .logo {
+      font-size: 27px;
+      font-weight: 700; }
+    .header .nav ul a {
+      margin: 0 10px;
+      color: var(--black-color);
+      padding: 11px 16px; }
+      .header .nav ul a:hover {
+        border: 1px solid var(--black-color);
+        border-radius: 13px;
+        -webkit-border-radius: 13px;
+        -moz-border-radius: 13px;
+        -ms-border-radius: 13px;
+        -o-border-radius: 13px; }
   .header .sale-testimonials-container {
     overflow: hidden;
     color: var(--secondary-color);

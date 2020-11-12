@@ -38,3 +38,4 @@ carouselSwitch.forEach((button, i) => {
     currentContainer(i + 1);
   });
 });
+
