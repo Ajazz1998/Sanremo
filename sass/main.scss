@@ -228,8 +228,8 @@ span{
 
 
       .contents{
-        margin-top: 13%;
-        margin-left: 30px;
+        margin-top: 12%;
+        margin-left: 50px;
 
         .btn{
           background-color: var(--black-color);
@@ -237,24 +237,35 @@ span{
           font-size: 17px;
           margin-top: 20px;
           border-radius: 100px;
+          transition: 200ms all ease-in-out;
+          -webkit-transition: 200ms all ease-in-out;
+          -moz-transition: 200ms all ease-in-out;
+          -ms-transition: 200ms all ease-in-out;
+          -o-transition: 200ms all ease-in-out;
+          border: 1px solid var(--black-color);
           -webkit-border-radius: 100px;
           -moz-border-radius: 100px;
           -ms-border-radius: 100px;
           -o-border-radius: 100px;
-}
+          &:hover{
+            background: transparent;
+            color: var(--black-color);
+            border: 1px solid var(--black-color)
+          }
+        }
         
         p{
-          font-size: 13px;
-          opacity: .8;
+          font-size: 15px;
+          opacity: .5;
         }
 
         h2{
-          font-size: 35px;
+          font-size: 30px;
         }
       }
 
       img{
-        width: 30%;
+        width: 35%;
       }
 
 

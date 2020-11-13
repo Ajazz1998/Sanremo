@@ -167,25 +167,35 @@ span {
     padding: 20px;
     background-color: var(--background-color); }
     .offer-sells .box-1 .contents {
-      margin-top: 13%;
-      margin-left: 30px; }
+      margin-top: 12%;
+      margin-left: 50px; }
       .offer-sells .box-1 .contents .btn {
         background-color: var(--black-color);
         color: var(--white-color);
         font-size: 17px;
         margin-top: 20px;
         border-radius: 100px;
+        transition: 200ms all ease-in-out;
+        -webkit-transition: 200ms all ease-in-out;
+        -moz-transition: 200ms all ease-in-out;
+        -ms-transition: 200ms all ease-in-out;
+        -o-transition: 200ms all ease-in-out;
+        border: 1px solid var(--black-color);
         -webkit-border-radius: 100px;
         -moz-border-radius: 100px;
         -ms-border-radius: 100px;
         -o-border-radius: 100px; }
+        .offer-sells .box-1 .contents .btn:hover {
+          background: transparent;
+          color: var(--black-color);
+          border: 1px solid var(--black-color); }
       .offer-sells .box-1 .contents p {
-        font-size: 13px;
-        opacity: .8; }
+        font-size: 15px;
+        opacity: .5; }
       .offer-sells .box-1 .contents h2 {
-        font-size: 35px; }
+        font-size: 30px; }
     .offer-sells .box-1 img {
-      width: 30%; }
+      width: 35%; }
 
 .topsells {
   padding: 50px 0; }

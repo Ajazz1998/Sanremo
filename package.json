@@ -4,7 +4,8 @@
   "description": "landing page for a client",
   "main": "script.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss style.css ~w"
+    "compile:sass": "node-sass sass/main.scss style.css",
+    "watch:sass": "nodemon -e scss -x \"npm run compile:sass\""
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/Ajazz1998/Sanremo#readme",
   "devDependencies": {
-    "node-sass": "^5.0.0"
+    "node-sass": "^5.0.0",
+    "nodemon": "^2.0.6"
   }
 }
