@@ -196,3 +196,22 @@ span {
         font-size: 30px; }
     .offer-sells .box-1 img {
       width: 35%; }
+
+.tranding {
+  padding: 50px 0; }
+  .tranding .heading {
+    text-align: center;
+    position: relative; }
+    .tranding .heading::after {
+      content: " ";
+      display: block;
+      background: var(--black-color);
+      width: 20%;
+      height: 2px; }
+    .tranding .heading h2 {
+      font-size: 30px; }
+    .tranding .heading p {
+      font-size: 20px;
+      font-style: italic;
+      opacity: .7;
+      font-family: serif; }

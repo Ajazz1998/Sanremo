@@ -270,6 +270,34 @@ span{
   }
 }
 
+.tranding{
+  padding: 50px 0;
+
+  .heading{
+    text-align: center;
+    position: relative;
+
+    &::after{
+      content: " ";
+      display: block;
+      background: var(--black-color);
+      width: 20%;
+      height: 2px;
+
+    }
+
+    h2{
+      font-size: 30px;
+    }
+
+    p{
+      font-size: 20px;
+      font-style: italic;
+      opacity: .7;
+      font-family: serif;
+    }
+  }
+}
 
 
 
