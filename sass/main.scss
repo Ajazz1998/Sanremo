@@ -273,8 +273,6 @@ span{
 .tranding{
   padding: 50px 0;
 
-  
-
   .heading{
     text-align: center;
     position: relative;
@@ -302,6 +300,73 @@ span{
       font-family: serif;
       margin-top: 10px;
     }
+  }
+
+  .main-carousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    #wrapper {
+      width: 100%;
+      max-width: 964px;
+      position: relative;
+
+      #carousel {
+        overflow: auto;
+        scroll-behavior: smooth;
+        overflow-x: hidden;
+
+        #content {
+          display: grid;
+          grid-gap: 16px;
+          grid-auto-flow: column;
+          margin: auto;
+          box-sizing: border-box;
+
+
+          .item {
+            width: 180px;
+            height: 180px;
+            background: green;
+          } 
+        }
+      }
+
+      &::-webkit-scrollbar {
+        height: 0;
+      }
+    }
+
+    
+      #prev,
+      #next {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        background: white;
+        border: none;
+        padding: 8px;
+        border-radius: 50%;
+        outline: 0;
+        cursor: pointer;
+        position: absolute;
+      }
+
+      #prev {
+        top: 50%;
+        left: 0;
+        transform: translate(50%, -50%);
+        display: none;
+      }
+
+      #next {
+        top: 50%;
+        right: 0;
+        transform: translate(-50%, -50%);
+      }
+
   }
 }
 

@@ -220,3 +220,49 @@ span {
       opacity: .7;
       font-family: serif;
       margin-top: 10px; }
+  .tranding .main-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    .tranding .main-carousel #wrapper {
+      width: 100%;
+      max-width: 964px;
+      position: relative; }
+      .tranding .main-carousel #wrapper #carousel {
+        overflow: auto;
+        scroll-behavior: smooth;
+        overflow-x: hidden; }
+        .tranding .main-carousel #wrapper #carousel #content {
+          display: grid;
+          grid-gap: 16px;
+          grid-auto-flow: column;
+          margin: auto;
+          box-sizing: border-box; }
+          .tranding .main-carousel #wrapper #carousel #content .item {
+            width: 180px;
+            height: 180px;
+            background: green; }
+      .tranding .main-carousel #wrapper::-webkit-scrollbar {
+        height: 0; }
+    .tranding .main-carousel #prev,
+    .tranding .main-carousel #next {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      background: white;
+      border: none;
+      padding: 8px;
+      border-radius: 50%;
+      outline: 0;
+      cursor: pointer;
+      position: absolute; }
+    .tranding .main-carousel #prev {
+      top: 50%;
+      left: 0;
+      transform: translate(50%, -50%);
+      display: none; }
+    .tranding .main-carousel #next {
+      top: 50%;
+      right: 0;
+      transform: translate(-50%, -50%); }
