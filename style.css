@@ -12,7 +12,8 @@ body {
   --light-sky:skyblue;
   --black-color: #000;
   --white-color: #fff;
-  --orange-color: #ffa800; }
+  --orange-color: #ffa800;
+  --background-color: #f6f6f8; }
 
 .fa-bars {
   display: none; }
@@ -59,6 +60,11 @@ span {
   display: grid;
   grid-template-columns: repeat(2, 1fr); }
 
+.flex-center {
+  display: flex;
+  justify-content: center;
+  text-align: center; }
+
 .header {
   position: relative;
   height: 100vh; }
@@ -76,6 +82,7 @@ span {
       margin: 0 10px;
       color: var(--black-color);
       padding: 10px 15px;
+      border: 1px solid var(--white-color);
       transition: 200ms all ease-in-out;
       -webkit-transition: 200ms all ease-in-out;
       -moz-transition: 200ms all ease-in-out;
@@ -156,6 +163,11 @@ span {
 
 .offer-sells {
   padding: 50px 0; }
+  .offer-sells .grid-2 {
+    margin: 0 20px; }
+    .offer-sells .grid-2 .box-1 {
+      padding: 50px 70px;
+      background-color: var(--background-color); }
   .offer-sells img {
     width: 100%; }
 
