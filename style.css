@@ -201,17 +201,22 @@ span {
   padding: 50px 0; }
   .tranding .heading {
     text-align: center;
-    position: relative; }
+    position: relative;
+    background: var(--white-color); }
     .tranding .heading::after {
       content: " ";
       display: block;
       background: var(--black-color);
-      width: 20%;
-      height: 2px; }
+      width: 10%;
+      height: 2px;
+      position: absolute;
+      left: 45%;
+      bottom: 40%; }
     .tranding .heading h2 {
       font-size: 30px; }
     .tranding .heading p {
       font-size: 20px;
       font-style: italic;
       opacity: .7;
-      font-family: serif; }
+      font-family: serif;
+      margin-top: 10px; }

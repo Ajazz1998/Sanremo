@@ -276,14 +276,17 @@ span{
   .heading{
     text-align: center;
     position: relative;
+    background: var(--white-color)  ;
 
     &::after{
       content: " ";
       display: block;
       background: var(--black-color);
-      width: 20%;
+      width: 10%;
       height: 2px;
-
+      position: absolute;
+      left: 45%;
+      bottom: 40%;
     }
 
     h2{
@@ -295,6 +298,7 @@ span{
       font-style: italic;
       opacity: .7;
       font-family: serif;
+      margin-top: 10px;
     }
   }
 }
