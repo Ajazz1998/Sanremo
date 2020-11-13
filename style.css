@@ -62,8 +62,7 @@ span {
 
 .flex-center {
   display: flex;
-  justify-content: center;
-  text-align: center; }
+  justify-content: center; }
 
 .header {
   position: relative;
@@ -163,13 +162,14 @@ span {
 
 .offer-sells {
   padding: 50px 0; }
-  .offer-sells .grid-2 {
-    margin: 0 20px; }
-    .offer-sells .grid-2 .box-1 {
-      padding: 50px 70px;
-      background-color: var(--background-color); }
-  .offer-sells img {
-    width: 100%; }
+  .offer-sells .box-1 {
+    padding: 50px 70px;
+    background-color: var(--background-color);
+    margin-right: 20px; }
+    .offer-sells .box-1 .contents {
+      margin-top: 20%; }
+    .offer-sells .box-1 img {
+      width: 30%; }
 
 .topsells {
   padding: 50px 0; }

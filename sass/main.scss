@@ -80,7 +80,6 @@ span{
 .flex-center{
   display: flex;
   justify-content: center;
-  text-align: center;
 }
 
 
@@ -222,21 +221,22 @@ span{
 .offer-sells{
   padding: 50px 0;
 
-  .grid-2{
-    margin: 0 20px;
-
     .box-1{
       padding: 50px 70px;
       background-color: var(--background-color);
+      margin-right: 20px;
+
 
       .contents{
-        
+        margin-top: 20%;
+        margin-left: 20px;
       }
-    }
-  }
 
-  img{
-    width: 100%;
+      img{
+        width: 30%;
+      }
+
+
   }
 }
 
