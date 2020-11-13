@@ -58,7 +58,8 @@ span {
 
 .grid-2 {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); }
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px; }
 
 .flex-center {
   display: flex;
@@ -163,11 +164,26 @@ span {
 .offer-sells {
   padding: 50px 0; }
   .offer-sells .box-1 {
-    padding: 50px 70px;
-    background-color: var(--background-color);
-    margin-right: 20px; }
+    padding: 20px;
+    background-color: var(--background-color); }
     .offer-sells .box-1 .contents {
-      margin-top: 20%; }
+      margin-top: 13%;
+      margin-left: 30px; }
+      .offer-sells .box-1 .contents .btn {
+        background-color: var(--black-color);
+        color: var(--white-color);
+        font-size: 17px;
+        margin-top: 20px;
+        border-radius: 100px;
+        -webkit-border-radius: 100px;
+        -moz-border-radius: 100px;
+        -ms-border-radius: 100px;
+        -o-border-radius: 100px; }
+      .offer-sells .box-1 .contents p {
+        font-size: 13px;
+        opacity: .8; }
+      .offer-sells .box-1 .contents h2 {
+        font-size: 35px; }
     .offer-sells .box-1 img {
       width: 30%; }
 

@@ -75,6 +75,7 @@ span{
 .grid-2{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
 }
 
 .flex-center{
@@ -222,14 +223,34 @@ span{
   padding: 50px 0;
 
     .box-1{
-      padding: 50px 70px;
+      padding: 20px;
       background-color: var(--background-color);
-      margin-right: 20px;
 
 
       .contents{
-        margin-top: 20%;
-        margin-left: 20px;
+        margin-top: 13%;
+        margin-left: 30px;
+
+        .btn{
+          background-color: var(--black-color);
+          color: var(--white-color);
+          font-size: 17px;
+          margin-top: 20px;
+          border-radius: 100px;
+          -webkit-border-radius: 100px;
+          -moz-border-radius: 100px;
+          -ms-border-radius: 100px;
+          -o-border-radius: 100px;
+}
+        
+        p{
+          font-size: 13px;
+          opacity: .8;
+        }
+
+        h2{
+          font-size: 35px;
+        }
       }
 
       img{
