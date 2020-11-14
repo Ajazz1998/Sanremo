@@ -239,9 +239,12 @@ span {
           grid-auto-flow: column;
           margin: auto;
           box-sizing: border-box; }
-          .tranding .main-carousel #wrapper #carousel #content .item img {
-            width: 250px;
+          .tranding .main-carousel #wrapper #carousel #content .item {
+            width: 230px;
             height: 300px; }
+            .tranding .main-carousel #wrapper #carousel #content .item img {
+              height: 150px;
+              height: 250px; }
       .tranding .main-carousel #wrapper::-webkit-scrollbar {
         height: 0; }
     .tranding .main-carousel #prev,
@@ -251,7 +254,7 @@ span {
       align-content: center;
       background: var(--white-color);
       border: none;
-      padding: 8px;
+      padding: 10px;
       border-radius: 50%;
       outline: 0;
       cursor: pointer;
