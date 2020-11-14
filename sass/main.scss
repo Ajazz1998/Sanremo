@@ -310,7 +310,7 @@ span{
     
     #wrapper {
       width: 100%;
-      max-width: 964px;
+      max-width: 1164px;
       position: relative;
 
       #carousel {
@@ -326,10 +326,9 @@ span{
           box-sizing: border-box;
 
 
-          .item {
-            width: 180px;
-            height: 180px;
-            background: green;
+          .item img{
+            width: 250px;
+            height: 300px;
           } 
         }
       }

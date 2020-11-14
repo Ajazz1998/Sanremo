@@ -227,7 +227,7 @@ span {
     flex-direction: column; }
     .tranding .main-carousel #wrapper {
       width: 100%;
-      max-width: 964px;
+      max-width: 1164px;
       position: relative; }
       .tranding .main-carousel #wrapper #carousel {
         overflow: auto;
@@ -239,10 +239,9 @@ span {
           grid-auto-flow: column;
           margin: auto;
           box-sizing: border-box; }
-          .tranding .main-carousel #wrapper #carousel #content .item {
-            width: 180px;
-            height: 180px;
-            background: green; }
+          .tranding .main-carousel #wrapper #carousel #content .item img {
+            width: 250px;
+            height: 300px; }
       .tranding .main-carousel #wrapper::-webkit-scrollbar {
         height: 0; }
     .tranding .main-carousel #prev,
