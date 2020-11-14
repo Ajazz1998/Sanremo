@@ -249,7 +249,7 @@ span {
       display: flex;
       justify-content: center;
       align-content: center;
-      background: white;
+      background: var(--white-color);
       border: none;
       padding: 8px;
       border-radius: 50%;
