@@ -328,7 +328,7 @@ span{
 
           .item{
             width: 240px;
-            height: 350px;
+            height: 450px;
 
             img{
               height: 150px;
@@ -336,14 +336,20 @@ span{
             }
 
             .m-container{
-              display: flex;
+              margin-top: 20px;
 
               .m-content{
-
+                img{
+                  width: 100px;
+                  height: 30px;
+                  margin: 5px 0;
+                }
                 h2{
                   font-size: 20px;
-                  margin-right: 20px;
+                  margin-right: 10px;
+                  text-transform: uppercase;
                 }
+              
               }
             }
           } 
