@@ -327,12 +327,24 @@ span{
 
 
           .item{
-            width: 230px;
-            height: 300px;
+            width: 240px;
+            height: 350px;
 
             img{
               height: 150px;
               height: 250px;
+            }
+
+            .m-container{
+              display: flex;
+
+              .m-content{
+
+                h2{
+                  font-size: 20px;
+                  margin-right: 20px;
+                }
+              }
             }
           } 
         }

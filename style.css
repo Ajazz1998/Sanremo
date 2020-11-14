@@ -240,11 +240,16 @@ span {
           margin: auto;
           box-sizing: border-box; }
           .tranding .main-carousel #wrapper #carousel #content .item {
-            width: 230px;
-            height: 300px; }
+            width: 240px;
+            height: 350px; }
             .tranding .main-carousel #wrapper #carousel #content .item img {
               height: 150px;
               height: 250px; }
+            .tranding .main-carousel #wrapper #carousel #content .item .m-container {
+              display: flex; }
+              .tranding .main-carousel #wrapper #carousel #content .item .m-container .m-content h2 {
+                font-size: 20px;
+                margin-right: 20px; }
       .tranding .main-carousel #wrapper::-webkit-scrollbar {
         height: 0; }
     .tranding .main-carousel #prev,
