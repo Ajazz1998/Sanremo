@@ -296,19 +296,28 @@ span {
       display: flex;
       justify-content: center;
       align-content: center;
-      background: var(--white-color);
+      background: transparent;
       border: none;
-      padding: 10px;
+      padding: 10px 0;
       border-radius: 50%;
+      font-size: 50px;
       outline: 0;
       cursor: pointer;
-      position: absolute; }
+      position: absolute;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%; }
     .tranding .main-carousel #prev {
       top: 50%;
       left: 0;
       transform: translate(50%, -50%);
       display: none; }
+      .tranding .main-carousel #prev:hover {
+        padding-right: 10px; }
     .tranding .main-carousel #next {
       top: 50%;
       right: 0;
       transform: translate(-50%, -50%); }
+      .tranding .main-carousel #next:hover {
+        padding-left: 10px; }
