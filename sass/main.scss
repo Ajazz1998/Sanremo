@@ -294,7 +294,7 @@ span{
     }
 
     p{
-      font-size: 20px;
+      font-size: 18px;
       font-style: italic;
       opacity: .7;
       font-family: serif;
@@ -330,14 +330,14 @@ span{
 
 
           .item{
-            width: 240px;
+            width: 253px;
             height: 440px;
             border: 1px solid rgb(236, 234, 234);
             box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
 
             img{
               height: 250px;
-              padding-left: 30px;
+              padding-left: 35px;
               margin-top: 10px;
             }
 
@@ -453,6 +453,40 @@ span{
       }
 
   }
+}
+
+.bestsell{
+  padding: 50px 0;
+
+  .heading{
+    text-align: center;
+    position: relative;
+    background: var(--white-color)  ;
+
+    &::after{
+      content: " ";
+      display: block;
+      background: var(--black-color);
+      width: 10%;
+      height: 2px;
+      position: absolute;
+      left: 45%;
+      bottom: 40%;
+    }
+
+    h2{
+      font-size: 30px;
+    }
+
+    p{
+      font-size: 18px;
+      font-style: italic;
+      opacity: .7;
+      font-family: serif;
+      margin-top: 10px;
+    }
+  }
+
 }
 
 
