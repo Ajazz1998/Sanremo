@@ -78,6 +78,12 @@ span{
   grid-gap: 20px;
 }
 
+.grid-4{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
 .flex-center{
   display: flex;
   justify-content: center;
@@ -484,6 +490,14 @@ span{
       opacity: .7;
       font-family: serif;
       margin-top: 10px;
+    }
+  }
+
+  .box{
+
+    .img{
+      background: url('./images/products/sumsung/samsung5.jpeg') no-repeat center center / cover;
+      height: 300px;
     }
   }
 
