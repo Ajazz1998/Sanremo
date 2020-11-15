@@ -203,7 +203,7 @@ span {
       width: 35%; }
 
 .tranding {
-  padding: 50px 0; }
+  padding-top: 50px; }
   .tranding .heading {
     text-align: center;
     position: relative;
@@ -350,18 +350,41 @@ span {
       opacity: .7;
       font-family: serif;
       margin-top: 10px; }
+  .bestsell .best-container {
+    margin-top: 50px; }
   .bestsell .box {
-    position: relative; }
+    position: relative;
+    width: 150px; }
     .bestsell .box img {
-      width: 140px;
+      width: 140%;
+      height: 270px;
       margin: 0 auto; }
+    .bestsell .box h2 {
+      font-size: 18px;
+      font-weight: 500;
+      margin-top: 15px; }
+    .bestsell .box .price {
+      display: flex; }
+      .bestsell .box .price span {
+        font-size: inherit;
+        margin-left: 10px;
+        text-decoration: line-through; }
     .bestsell .box .img-content {
       position: absolute;
-      top: 15%;
-      left: 17px; }
+      top: 7%;
+      left: 37px;
+      opacity: 0;
+      transition: 400ms opacity;
+      -webkit-transition: 400ms opacity;
+      -moz-transition: 400ms opacity;
+      -ms-transition: 400ms opacity;
+      -o-transition: 400ms opacity; }
+      .bestsell .box .img-content:hover {
+        opacity: 1; }
       .bestsell .box .img-content i {
         color: var(--white-color);
         font-size: 20px;
+        margin-bottom: 40px;
         cursor: pointer; }
         .bestsell .box .img-content i:hover {
           color: red; }

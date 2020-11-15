@@ -277,7 +277,7 @@ span{
 }
 
 .tranding{
-  padding: 50px 0;
+  padding-top: 50px;
 
   .heading{
     text-align: center;
@@ -493,22 +493,56 @@ span{
     }
   }
 
+  .best-container{
+    margin-top: 50px;
+  }
+
   .box{
     position: relative;
+    width: 150px;
 
     img{
-      width: 140px;
+      width: 140%;
+      height: 270px;
       margin: 0 auto;
+    }
+
+    h2{
+      font-size: 18px;
+      font-weight: 500;
+      margin-top: 15px;
+    }
+
+    .price{
+      display: flex;
+
+      span{
+        font-size: inherit;
+        margin-left: 10px;
+        text-decoration: line-through;
+      }
     }
 
     .img-content{
       position: absolute;
-      top: 15%;
-      left: 17px;
+      top: 7%;
+      left: 37px;
+
+      opacity: 0;
+      transition: 400ms opacity;
+      -webkit-transition: 400ms opacity;
+      -moz-transition: 400ms opacity;
+      -ms-transition: 400ms opacity;
+      -o-transition: 400ms opacity;
+
+      &:hover{
+        opacity: 1;
+      }
 
       i{
         color: var(--white-color);
         font-size: 20px;
+        margin-bottom: 40px;
         cursor: pointer;
 
         &:hover{
