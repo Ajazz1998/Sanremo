@@ -244,6 +244,7 @@ span {
           .tranding .main-carousel #wrapper #carousel #content .item {
             width: 240px;
             height: 440px;
+            border: 1px solid #eceaea;
             box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2); }
             .tranding .main-carousel #wrapper #carousel #content .item img {
               height: 250px;
