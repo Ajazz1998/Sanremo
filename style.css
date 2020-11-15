@@ -77,9 +77,13 @@ span {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    width: 100%;
     padding: 10px 100px;
     height: 8vh;
-    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1); }
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    background-color: var(--white-color); }
     .header .nav .logo {
       font-size: 27px;
       font-weight: 700; }
@@ -111,12 +115,13 @@ span {
     overflow: hidden;
     color: var(--secondary-color);
     padding: 50px 200px;
-    height: 92vh;
+    height: 100vh;
     background-color: #f6f6f8; }
     .header .sale-testimonials-container .sale-testimonial-item {
       font-size: .95rem;
       align-items: center;
       margin: 2em 0;
+      margin-top: 70px;
       padding: 0 1em;
       color: var(--second-color); }
       .header .sale-testimonials-container .sale-testimonial-item .colletion {
@@ -354,7 +359,8 @@ span {
     margin-top: 50px; }
   .bestsell .box {
     position: relative;
-    width: 150px; }
+    width: 150px;
+    margin: 7px 0; }
     .bestsell .box img {
       width: 140%;
       height: 270px;
@@ -362,7 +368,7 @@ span {
     .bestsell .box h2 {
       font-size: 18px;
       font-weight: 500;
-      margin-top: 15px; }
+      margin-top: 10px; }
     .bestsell .box .price {
       display: flex; }
       .bestsell .box .price span {

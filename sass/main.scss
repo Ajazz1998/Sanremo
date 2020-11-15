@@ -98,9 +98,13 @@ span{
       display: flex;
       justify-content: space-between;
       align-items: center;
+      position: fixed;
+      width: 100%;
       padding: 10px 100px;
       height: 8vh;
       box-shadow: 0 0.5rem 1.5rem rgba(0,0,0,.1);
+      z-index: 10;
+      background-color: var(--white-color);
         
         .logo{
           font-size: 27px;
@@ -146,14 +150,14 @@ span{
       overflow: hidden;
       color: var(--secondary-color);
       padding: 50px 200px;
-      height: 92vh;
+      height: 100vh;
       background-color: #f6f6f8;
 
           .sale-testimonial-item {
-              
               font-size: .95rem;
               align-items: center;
               margin: 2em 0;
+              margin-top: 70px;
               padding: 0 1em;
               color: var(--second-color);
 
@@ -190,7 +194,6 @@ span{
                 }
 
                 img{
-
                   max-width: 350px;
                   width: 100%;
                 }
@@ -500,6 +503,7 @@ span{
   .box{
     position: relative;
     width: 150px;
+    margin: 7px 0;
 
     img{
       width: 140%;
@@ -510,7 +514,7 @@ span{
     h2{
       font-size: 18px;
       font-weight: 500;
-      margin-top: 15px;
+      margin-top: 10px;
     }
 
     .price{
