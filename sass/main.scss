@@ -355,7 +355,7 @@ span{
               .m-content{
                 img{
                   width: 100px;
-                  height: 25px;
+                  height: 22px;
                   margin: 5px 0;
                   padding-left: 0;
                 }
@@ -367,7 +367,7 @@ span{
 
                 .price{
                   display: flex;
-                  font-size: 18px;
+                  font-size: 16px;
 
                   p{
                     opacity: .6;
@@ -494,10 +494,41 @@ span{
   }
 
   .box{
+    position: relative;
 
-    .img{
-      background: url('./images/products/sumsung/samsung5.jpeg') no-repeat center center / cover;
-      height: 300px;
+    img{
+      width: 140px;
+      margin: 0 auto;
+    }
+
+    .img-content{
+      position: absolute;
+      top: 15%;
+      left: 10px;
+
+      i{
+        color: var(--white-color);
+        font-size: 20px;
+        cursor: pointer;
+
+        &:hover{
+          color: red;
+          }
+      }
+
+      p{
+        background: var(--white-color);
+        color: var(--black-color);
+        padding: 5px 10px;
+        font-size: 16px;
+        margin: 10px 0;
+        text-transform: capitalize;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+  }
     }
   }
 

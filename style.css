@@ -260,7 +260,7 @@ span {
               padding-left: 10px; }
               .tranding .main-carousel #wrapper #carousel #content .item .m-container .m-content img {
                 width: 100px;
-                height: 25px;
+                height: 22px;
                 margin: 5px 0;
                 padding-left: 0; }
               .tranding .main-carousel #wrapper #carousel #content .item .m-container .m-content h2 {
@@ -269,7 +269,7 @@ span {
                 text-transform: uppercase; }
               .tranding .main-carousel #wrapper #carousel #content .item .m-container .m-content .price {
                 display: flex;
-                font-size: 18px; }
+                font-size: 16px; }
                 .tranding .main-carousel #wrapper #carousel #content .item .m-container .m-content .price p {
                   opacity: .6;
                   border-right: 2px solid var(--black-color);
@@ -350,6 +350,30 @@ span {
       opacity: .7;
       font-family: serif;
       margin-top: 10px; }
-  .bestsell .box .img {
-    background: url("./images/products/sumsung/samsung5.jpeg") no-repeat center center/cover;
-    height: 300px; }
+  .bestsell .box {
+    position: relative; }
+    .bestsell .box img {
+      width: 140px;
+      margin: 0 auto; }
+    .bestsell .box .img-content {
+      position: absolute;
+      top: 15%;
+      left: 10px; }
+      .bestsell .box .img-content i {
+        color: var(--white-color);
+        font-size: 20px;
+        cursor: pointer; }
+        .bestsell .box .img-content i:hover {
+          color: red; }
+      .bestsell .box .img-content p {
+        background: var(--white-color);
+        color: var(--black-color);
+        padding: 5px 10px;
+        font-size: 16px;
+        margin: 10px 0;
+        text-transform: capitalize;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px; }
