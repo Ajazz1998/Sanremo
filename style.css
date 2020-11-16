@@ -378,7 +378,8 @@ span {
     .bestsell .box .img-content {
       position: absolute;
       top: 7%;
-      left: 37px;
+      width: 75%;
+      left: 50px;
       opacity: 0;
       transition: 400ms opacity;
       -webkit-transition: 400ms opacity;
@@ -390,7 +391,7 @@ span {
       .bestsell .box .img-content i {
         color: var(--orange-color);
         font-size: 20px;
-        margin-bottom: 40px;
+        margin-bottom: 60px;
         cursor: pointer; }
         .bestsell .box .img-content i:hover {
           color: red; }
