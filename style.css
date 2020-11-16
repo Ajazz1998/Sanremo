@@ -391,7 +391,7 @@ span {
       .bestsell .box .img-content i {
         color: var(--orange-color);
         font-size: 20px;
-        margin-bottom: 60px;
+        margin-bottom: 50px;
         cursor: pointer; }
         .bestsell .box .img-content i:hover {
           color: red; }
@@ -461,3 +461,27 @@ span {
     width: .6rem; }
   .test .main-test .active-carousel-switch {
     transform: scale(1.5); }
+
+.blog-container {
+  padding: 50px 0; }
+  .blog-container .heading {
+    text-align: center;
+    position: relative;
+    background: var(--white-color); }
+    .blog-container .heading::after {
+      content: " ";
+      display: block;
+      background: var(--black-color);
+      width: 15%;
+      height: 2px;
+      position: absolute;
+      left: 43%;
+      bottom: 40%; }
+    .blog-container .heading h2 {
+      font-size: 30px; }
+    .blog-container .heading p {
+      font-size: 18px;
+      font-style: italic;
+      opacity: .7;
+      font-family: serif;
+      margin-top: 10px; }

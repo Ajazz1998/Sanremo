@@ -547,7 +547,7 @@ span{
       i{
         color: var(--orange-color);
         font-size: 20px;
-        margin-bottom: 60px;
+        margin-bottom: 50px;
         cursor: pointer;
 
         &:hover{
@@ -657,6 +657,39 @@ span{
 
     .active-carousel-switch {
     transform: scale(1.5);
+    }
+  }
+}
+
+.blog-container{
+  padding: 50px 0;
+
+  .heading{
+    text-align: center;
+    position: relative;
+    background: var(--white-color)  ;
+
+    &::after{
+      content: " ";
+      display: block;
+      background: var(--black-color);
+      width: 15%;
+      height: 2px;
+      position: absolute;
+      left: 43%;
+      bottom: 40%;
+    }
+
+    h2{
+      font-size: 30px;
+    }
+
+    p{
+      font-size: 18px;
+      font-style: italic;
+      opacity: .7;
+      font-family: serif;
+      margin-top: 10px;
     }
   }
 }
