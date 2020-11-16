@@ -692,6 +692,72 @@ span{
       margin-top: 10px;
     }
   }
+
+  .grid-3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 40px;
+    grid-gap: 30px;
+
+    .box{
+      overflow: hidden;
+     
+      img{
+        width: 100%;
+        transition: 900ms;
+        cursor: pointer;
+        -webkit-transition: 900ms;
+        -moz-transition: 900ms;
+        -ms-transition: 900ms;
+        -o-transition: 900ms;
+       
+        &:hover{
+          transform: scale(1.1);
+          -webkit-transform: scale(1.1);
+          -moz-transform: scale(1.1);
+          -ms-transform: scale(1.1);
+          -o-transform: scale(1.1);
+        }
+      }
+
+      .b-contents{
+        padding: 10px 5px;
+        background: var(--white-color);
+
+        h2{
+          font-size: 20px;
+        }
+
+        .fix-b{
+          font-weight: 500;
+          margin: 10px 0;
+        }
+
+        p{
+          font-size: 16px;
+          font-weight: 300;
+        }
+
+        .btn{
+          font-size: 15px;
+          margin-top: 10px;
+          background-color: var(--white-color);
+          border: 1px solid var(--black-color);
+          transition: 200ms background;
+          -webkit-transition: 200ms background;
+          -moz-transition: 200ms background;
+          -ms-transition: 200ms background;
+          -o-transition: 200ms background;
+          
+          &:hover{
+            background-color: var(--black-color);
+            color: var(--white-color);
+          }
+        }
+      }
+    }
+  }
+
 }
 
 
