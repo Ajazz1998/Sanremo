@@ -748,7 +748,7 @@ span{
           -moz-transition: 200ms background;
           -ms-transition: 200ms background;
           -o-transition: 200ms background;
-          
+
           &:hover{
             background-color: var(--black-color);
             color: var(--white-color);
@@ -757,7 +757,36 @@ span{
       }
     }
   }
+}
 
+.sub{
+  border-top: 1px solid rgb(231, 231, 231);
+
+  .row{
+    padding: 50px 0;
+    display: flex;
+
+    h2{
+      font-size: 30px;
+    }
+
+    p{
+      margin-top: 7px;
+      font-size: 15px;
+      font-weight: 300;
+    }
+  }
+
+  .form{
+    margin-left: 50px;
+    
+    input[type=text]{
+      padding: 10px 20px;
+      width: 350px;
+      background: var(--background-color);
+      border: none;
+    }
+  }
 }
 
 

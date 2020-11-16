@@ -530,3 +530,22 @@ span {
           .blog-container .grid-3 .box .b-contents .btn:hover {
             background-color: var(--black-color);
             color: var(--white-color); }
+
+.sub {
+  border-top: 1px solid #e7e7e7; }
+  .sub .row {
+    padding: 50px 0;
+    display: flex; }
+    .sub .row h2 {
+      font-size: 30px; }
+    .sub .row p {
+      margin-top: 7px;
+      font-size: 15px;
+      font-weight: 300; }
+  .sub .form {
+    margin-left: 50px; }
+    .sub .form input[type=text] {
+      padding: 10px 20px;
+      width: 350px;
+      background: var(--background-color);
+      border: none; }
