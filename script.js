@@ -66,8 +66,58 @@ prev.addEventListener("click", e => {
   }
 });
 
+
+
+
+
+// Second testimonial
+
+
+
+const testimonialCarouselContainers = document.querySelectorAll('.client-testimonial-item');
+const carouselSwitchs = document.querySelectorAll('.client-testimonial-switch');
+
+let carouselCounters = 1;
+showContainers(carouselCounters);
+
+function currentContainer(n) {
+  showContainers(carouselCounters = n);
+}
+
+
+function showContainers(n) {
+
+  for (let i = 0; i < testimonialCarouselContainers.length; i++) {
+    testimonialCarouselContainers[i].style.display = 'none';
+    testimonialCarouselContainers[i].classList.remove('fast-fade-in-left');
+    carouselSwitchs[i].classList.remove('active-carousel-switch');
+  }
+
+  if (carouselCounters > testimonialCarouselContainers.length) {
+    carouselCounters = 1;
+  }
+
+  testimonialCarouselContainers[carouselCounters - 1].style.display = 'block';
+  testimonialCarouselContainers[carouselCounters - 1].classList.add('fast-fade-in-left');
+  carouselSwitchs[carouselCounters - 1].classList.add('active-carousel-switch');
+
+  carouselCounters++;
+  setTimeout(showContainers, 30000);
+
+}
+
+carouselSwitchs.forEach((button, i) => {
+  button.addEventListener('click', () => {
+    currentContainer(i + 1);
+  });
+});
+
+
 let width = carousel.offsetWidth;
 window.addEventListener("resize", e => (width = carousel.offsetWidth));
+
+
+
 
 
 
