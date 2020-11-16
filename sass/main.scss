@@ -506,7 +506,7 @@ span{
     margin: 7px 0;
 
     img{
-      width: 140%;
+      width: 145%;
       height: 270px;
       margin: 0 auto;
     }
@@ -544,7 +544,7 @@ span{
       }
 
       i{
-        color: var(--white-color);
+        color: var(--orange-color);
         font-size: 20px;
         margin-bottom: 40px;
         cursor: pointer;
@@ -555,8 +555,8 @@ span{
       }
 
       p{
-        background: var(--white-color);
-        color: var(--black-color);
+        background: var(--black-color);
+        color: var(--white-color);
         padding: 8px 12px;
         font-size: 13px;
         margin: 10px 0;
@@ -569,7 +569,7 @@ span{
 
         &:hover{
           color: var(--white-color);
-          background: var(--black-color);
+          background: var(--orange-color);
         }
       }
     }

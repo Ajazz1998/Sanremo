@@ -362,7 +362,7 @@ span {
     width: 150px;
     margin: 7px 0; }
     .bestsell .box img {
-      width: 140%;
+      width: 145%;
       height: 270px;
       margin: 0 auto; }
     .bestsell .box h2 {
@@ -388,15 +388,15 @@ span {
       .bestsell .box .img-content:hover {
         opacity: 1; }
       .bestsell .box .img-content i {
-        color: var(--white-color);
+        color: var(--orange-color);
         font-size: 20px;
         margin-bottom: 40px;
         cursor: pointer; }
         .bestsell .box .img-content i:hover {
           color: red; }
       .bestsell .box .img-content p {
-        background: var(--white-color);
-        color: var(--black-color);
+        background: var(--black-color);
+        color: var(--white-color);
         padding: 8px 12px;
         font-size: 13px;
         margin: 10px 0;
@@ -408,4 +408,4 @@ span {
         -o-border-radius: 10px; }
         .bestsell .box .img-content p:hover {
           color: var(--white-color);
-          background: var(--black-color); }
+          background: var(--orange-color); }
