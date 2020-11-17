@@ -449,7 +449,7 @@ span {
           -ms-border-radius: 50%;
           -o-border-radius: 50%; }
         .test .main-test .client-testimonials-container .client-testimonial-item .client-details .client-name {
-          font-size: 1rem; }
+          font-size: 1.3rem; }
   .test .main-test .client-testimonial-switch {
     background-color: var(--orange-color);
     border: none;
@@ -543,9 +543,17 @@ span {
       font-size: 15px;
       font-weight: 300; }
   .sub .form {
-    margin-left: 50px; }
+    margin-left: 50px;
+    margin-top: 15px; }
     .sub .form input[type=text] {
-      padding: 10px 20px;
-      width: 350px;
+      padding: 15px 20px;
+      width: 370px;
       background: var(--background-color);
-      border: none; }
+      border: none;
+      font-size: 15px;
+      outline: none; }
+    .sub .form .btn {
+      background: var(--black-color);
+      color: var(--white-color);
+      padding: 15px 10px;
+      margin-left: -10px; }
