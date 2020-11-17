@@ -557,3 +557,93 @@ span {
       color: var(--white-color);
       padding: 15px 10px;
       margin-left: -10px; }
+
+/*-------- footer ------------*/
+.main-footer {
+  padding: 100px 0;
+  background: var(--bg-background);
+  border-radius: 0 150px 0 0;
+  -webkit-border-radius: 0 150px 0 0;
+  -moz-border-radius: 0 150px 0 0;
+  -ms-border-radius: 0 150px 0 0;
+  -o-border-radius: 0 150px 0 0; }
+  .main-footer .footer {
+    width: 100%;
+    position: relative;
+    height: auto;
+    padding-bottom: 30px;
+    border-bottom: #ccc 1px solid;
+    margin-bottom: 20px; }
+    .main-footer .footer .footer h2, .main-footer .footer .main-footer a {
+      color: var(--orange-color); }
+      .main-footer .footer .footer h2 .footer .col, .main-footer .footer .main-footer a .footer .col {
+        width: 200px;
+        height: auto;
+        float: left;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        padding: 0px 20px 20px 20px; }
+
+.footer .col ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+.footer .col ul li {
+  color: #999999;
+  font-size: 14px;
+  font-family: inherit;
+  font-weight: 500;
+  padding: 5px 0px 5px 0px;
+  cursor: pointer;
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s; }
+
+.footer .col ul li a {
+  color: #999999; }
+
+.footer .social {
+  width: 350px;
+  margin-right: 100px; }
+
+.footer .social .fab {
+  font-size: 30px;
+  margin: 20px 5px;
+  border: var(--orange-color) dotted 1px;
+  background-color: var(--white-color);
+  padding: 8px 15px;
+  transition: 300ms;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  -webkit-transition: 300ms;
+  -moz-transition: 300ms;
+  -ms-transition: 300ms;
+  -o-transition: 300ms; }
+
+.footer .social .fab:hover {
+  background-color: var(--orange-color);
+  color: var(--white-color); }
+
+.social ul li {
+  display: inline-block;
+  padding-right: 5px !important; }
+
+.footer .col ul li:hover {
+  color: var(--orange-color);
+  transition: .1s;
+  -webkit-transition: .1s;
+  -moz-transition: .1s; }
+
+.clearfix {
+  clear: both; }
+
+.copy {
+  text-align: center; }
+
+.copy a {
+  font-weight: 900; }
