@@ -578,7 +578,7 @@ span {
       display: flex; }
       .main-footer .footer .contain .footer h2, .main-footer .footer .contain .main-footer a {
         color: var(--orange-color); }
-        .main-footer .footer .contain .footer h2 .footer .col, .main-footer .footer .contain .main-footer a .footer .col {
+        .main-footer .footer .contain .footer h2 .col, .main-footer .footer .contain .main-footer a .col {
           width: 200px;
           height: auto;
           float: left;
@@ -586,37 +586,26 @@ span {
           -webkit-box-sizing: border-box;
           -moz-box-sizing: border-box;
           padding: 0px 20px 20px 20px; }
-          .main-footer .footer .contain .footer h2 .footer .col .footer .col h1, .main-footer .footer .contain .main-footer a .footer .col .footer .col h1 {
-            margin: 0;
-            padding: 0;
+        .main-footer .footer .contain .footer h2 ul, .main-footer .footer .contain .main-footer a ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0; }
+          .main-footer .footer .contain .footer h2 ul li, .main-footer .footer .contain .main-footer a ul li {
+            color: #999999;
+            font-size: 14px;
             font-family: inherit;
-            font-size: 12px;
-            line-height: 17px;
-            padding: 20px 0px 5px 0px;
-            color: rgba(255, 255, 255, 0.2);
-            font-weight: normal;
-            text-transform: uppercase;
-            letter-spacing: 0.250em; }
-            .main-footer .footer .contain .footer h2 .footer .col .footer .col h1 .footer .col ul, .main-footer .footer .contain .main-footer a .footer .col .footer .col h1 .footer .col ul {
-              list-style-type: none;
-              margin: 0;
-              padding: 0; }
-              .main-footer .footer .contain .footer h2 .footer .col .footer .col h1 .footer .col ul .footer .col ul li, .main-footer .footer .contain .main-footer a .footer .col .footer .col h1 .footer .col ul .footer .col ul li {
-                color: #999999;
-                font-size: 14px;
-                font-family: inherit;
-                font-weight: 500;
-                padding: 5px 0px 5px 0px;
-                cursor: pointer;
-                transition: .2s;
-                -webkit-transition: .2s;
-                -moz-transition: .2s; }
-                .main-footer .footer .contain .footer h2 .footer .col .footer .col h1 .footer .col ul .footer .col ul li .footer .col ul li a, .main-footer .footer .contain .main-footer a .footer .col .footer .col h1 .footer .col ul .footer .col ul li .footer .col ul li a {
-                  color: #999999; }
+            font-weight: 500;
+            padding: 5px 0px 5px 0px;
+            cursor: pointer;
+            transition: .2s;
+            -webkit-transition: .2s;
+            -moz-transition: .2s; }
+            .main-footer .footer .contain .footer h2 ul li a, .main-footer .footer .contain .main-footer a ul li a {
+              color: #999999; }
         .main-footer .footer .contain .footer h2 .footer .social, .main-footer .footer .contain .main-footer a .footer .social {
           width: 350px;
           margin-right: 100px; }
-          .main-footer .footer .contain .footer h2 .footer .social .footer .social .fab, .main-footer .footer .contain .main-footer a .footer .social .footer .social .fab {
+          .main-footer .footer .contain .footer h2 .footer .social .fab, .main-footer .footer .contain .main-footer a .footer .social .fab {
             font-size: 30px;
             margin: 20px 5px;
             border: var(--orange-color) dotted 1px;
@@ -632,23 +621,20 @@ span {
             -moz-transition: 300ms;
             -ms-transition: 300ms;
             -o-transition: 300ms; }
-            .main-footer .footer .contain .footer h2 .footer .social .footer .social .fab:hover, .main-footer .footer .contain .main-footer a .footer .social .footer .social .fab:hover {
+            .main-footer .footer .contain .footer h2 .footer .social .fab:hover, .main-footer .footer .contain .main-footer a .footer .social .fab:hover {
               background-color: var(--orange-color);
               color: var(--white-color); }
-            .main-footer .footer .contain .footer h2 .footer .social .footer .social .fab .social ul li, .main-footer .footer .contain .main-footer a .footer .social .footer .social .fab .social ul li {
+            .main-footer .footer .contain .footer h2 .footer .social .fab .social ul li, .main-footer .footer .contain .main-footer a .footer .social .fab .social ul li {
               display: inline-block;
               padding-right: 5px !important; }
-              .main-footer .footer .contain .footer h2 .footer .social .footer .social .fab .social ul li:hover, .main-footer .footer .contain .main-footer a .footer .social .footer .social .fab .social ul li:hover {
+              .main-footer .footer .contain .footer h2 .footer .social .fab .social ul li:hover, .main-footer .footer .contain .main-footer a .footer .social .fab .social ul li:hover {
                 color: var(--orange-color);
                 transition: .1s;
                 -webkit-transition: .1s;
                 -moz-transition: .1s; }
-
-.clearfix {
-  clear: both; }
-
-.copy {
-  text-align: center; }
-
-.copy a {
-  font-weight: 900; }
+    .main-footer .footer .clearfix {
+      clear: both; }
+  .main-footer .copy {
+    text-align: center; }
+    .main-footer .copy a {
+      font-weight: 900; }
