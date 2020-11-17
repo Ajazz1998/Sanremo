@@ -668,7 +668,6 @@ span {
     .checklist .container .main-slide {
       display: flex;
       /* Add a pointer when hovering over the thumbnail images */
-      /* Number text (1/3 etc) */
       /* Container for image text */
       /* Add a opaque effect for thumnbail images */ }
       .checklist .container .main-slide .mySlides {
@@ -682,14 +681,6 @@ span {
         margin-bottom: -6px; }
       .checklist .container .main-slide .cursor {
         cursor: pointer; }
-      .checklist .container .main-slide .numbertext {
-        opacity: 0;
-        font-family: 'Mansalva', cursive;
-        color: #f2f2f2;
-        font-size: 1rem;
-        padding: 8px 12px;
-        position: absolute;
-        top: 0; }
       .checklist .container .main-slide .caption-container {
         display: flex;
         justify-content: space-between;
