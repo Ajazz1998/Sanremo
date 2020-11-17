@@ -30,6 +30,7 @@ thumbImgCont.addEventListener('click', (e) => {
   caption.textContent = e.target.getAttribute('alt');
   // Set global variable for currentImage
   currentImage = index;
+  
   // Alter the thumbnail to show it's selected
   hiLiteThumbnail();
 })
@@ -75,5 +76,6 @@ captionCont.addEventListener('click', (e) => {
   // Allows only the Arrow icons to trigger event handlers
   if (e.target.nodeName !== 'A') return false;
   // Event Handlers
-  e.target.classList.contains("next") ? goFwd(e) : goBack(e);  
+  e.target.classList.contains("next") ? goFwd(e) : goBack(e); 
+  
 });

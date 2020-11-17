@@ -659,13 +659,14 @@ span {
 /* Other Pages */
 .checklist {
   /* Hide the images by default */ }
+  .checklist .header {
+    height: 10vh; }
   .checklist .container {
     position: relative;
-    width: 80vw;
-    margin: 30px auto; }
+    width: 40vw;
+    margin: 30px 0; }
     .checklist .container .main-slide {
       display: flex;
-      /* Add this class to show the image*/
       /* Add a pointer when hovering over the thumbnail images */
       /* Number text (1/3 etc) */
       /* Container for image text */
@@ -673,29 +674,15 @@ span {
       .checklist .container .main-slide .mySlides {
         display: none;
         width: 80%; }
-
-@keyframes fadeIn {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
       .checklist .container .main-slide .show {
-        display: block;
-        animation: fadeIn .2s linear; }
+        display: block; }
       .checklist .container .main-slide .mySlides img {
-        width: 100%;
+        width: 90%;
         padding: 0;
         margin-bottom: -6px; }
       .checklist .container .main-slide .cursor {
         cursor: pointer; }
-
-@keyframes fadeOut {
-  from {
-    opacity: 1; }
-  to {
-    opacity: 0; } }
       .checklist .container .main-slide .numbertext {
-        animation: fadeOut 3s linear;
         opacity: 0;
         font-family: 'Mansalva', cursive;
         color: #f2f2f2;
@@ -711,16 +698,15 @@ span {
         padding: 2px 0 0 0;
         color: white; }
       .checklist .container .main-slide #thumbnail-section {
-        width: 20%; }
+        width: 20%;
+        margin-top: 30px; }
       .checklist .container .main-slide .thumbnail img {
-        width: 100%;
+        width: 80%;
+        border: 1px solid #999;
+        padding: 5px 10px;
         margin: 0; }
       .checklist .container .main-slide .demo {
         opacity: 0.6;
         transition: .5s; }
       .checklist .container .main-slide .demo:hover {
         opacity: 1; }
-      .checklist .container .main-slide .active {
-        opacity: 1;
-        transform: scale(0.8);
-        transition: .3s; }
