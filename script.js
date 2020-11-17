@@ -80,7 +80,7 @@ const carouselSwitchs = document.querySelectorAll('.client-testimonial-switch');
 let carouselCounters = 1;
 showContainers(carouselCounters);
 
-function currentContainer(n) {
+function currentContainers(n) {
   showContainers(carouselCounters = n);
 }
 
@@ -108,7 +108,7 @@ function showContainers(n) {
 
 carouselSwitchs.forEach((button, i) => {
   button.addEventListener('click', () => {
-    currentContainer(i + 1);
+    currentContainers(i + 1);
   });
 });
 
