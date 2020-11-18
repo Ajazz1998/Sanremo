@@ -733,7 +733,7 @@ span {
           -ms-border-radius: 70px;
           -o-border-radius: 70px; }
         .checklist .container .details-check .color .co p {
-          margin: 0 2px;
+          margin: 0 4px;
           opacity: 1;
           font-size: 13px;
           border: 1px solid #ccc;
@@ -752,3 +752,31 @@ span {
           .checklist .container .details-check .color .co p:hover {
             background: #000;
             color: var(--white-color); }
+    .checklist .container .details-check .form-input {
+      margin-top: 30px;
+      display: flex; }
+      .checklist .container .details-check .form-input .box input[type=number] {
+        outline: none;
+        width: 80px;
+        padding: 12px 0;
+        padding-left: 30px;
+        border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px; }
+        .checklist .container .details-check .form-input .box input[type=number]::-webkit-inner-spin-button {
+          -webkit-appearance: none; }
+      .checklist .container .details-check .form-input .box-2 {
+        margin: 0 20px; }
+        .checklist .container .details-check .form-input .box-2 p {
+          padding: 10px 20px;
+          opacity: 1;
+          font-size: 14px;
+          color: var(--white-color);
+          background-color: var(--orange-color);
+          border-radius: 50px;
+          -webkit-border-radius: 50px;
+          -moz-border-radius: 50px;
+          -ms-border-radius: 50px;
+          -o-border-radius: 50px; }
