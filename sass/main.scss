@@ -961,7 +961,7 @@ span{
 
     .main-slide{
       display: flex;
-      width: 45%;
+      width: 40%;
 
       .mySlides {
         display: none;
@@ -1015,7 +1015,8 @@ span{
 
     .details-check{
       width: 55%;
-      padding: 30px 20px;
+      padding: 10px 0;
+      padding-left: 50px;
 
       p{
         font-size: 15px;
@@ -1031,6 +1032,8 @@ span{
         display: flex;
         justify-content: space-between;
         margin: 10px 0;
+        padding-bottom: 10px;
+        border-bottom: solid 1px rgb(231, 231, 231);
         
         p{
           font-size: 27px;
@@ -1177,6 +1180,33 @@ span{
           }
         }
 
+      }
+
+      .details{
+        display: flex;
+        margin-top: 20px;
+
+        h5{
+          font-size: 15px;
+        }
+
+        .fix{
+          margin: 0 27px;
+        }
+      }
+
+      .cate{
+        display: flex;
+        margin-top: 20px;
+
+        h5{
+          font-size: 15px;
+        }
+
+        p{
+          margin-left: 15px;
+
+        }
       }
     }
     

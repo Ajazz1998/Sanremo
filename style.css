@@ -665,7 +665,7 @@ span {
   display: flex; }
   .checklist .container .main-slide {
     display: flex;
-    width: 45%; }
+    width: 40%; }
     .checklist .container .main-slide .mySlides {
       display: none;
       width: 80%; }
@@ -693,7 +693,8 @@ span {
           opacity: 1; }
   .checklist .container .details-check {
     width: 55%;
-    padding: 30px 20px; }
+    padding: 10px 0;
+    padding-left: 50px; }
     .checklist .container .details-check p {
       font-size: 15px;
       opacity: .6; }
@@ -703,7 +704,9 @@ span {
     .checklist .container .details-check .price {
       display: flex;
       justify-content: space-between;
-      margin: 10px 0; }
+      margin: 10px 0;
+      padding-bottom: 10px;
+      border-bottom: solid 1px #e7e7e7; }
       .checklist .container .details-check .price p {
         font-size: 27px;
         opacity: .6; }
@@ -801,3 +804,17 @@ span {
             background-color: red;
             color: var(--white-color);
             border: none; }
+    .checklist .container .details-check .details {
+      display: flex;
+      margin-top: 20px; }
+      .checklist .container .details-check .details h5 {
+        font-size: 15px; }
+      .checklist .container .details-check .details .fix {
+        margin: 0 27px; }
+    .checklist .container .details-check .cate {
+      display: flex;
+      margin-top: 20px; }
+      .checklist .container .details-check .cate h5 {
+        font-size: 15px; }
+      .checklist .container .details-check .cate p {
+        margin-left: 15px; }
