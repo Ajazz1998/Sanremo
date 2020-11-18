@@ -1107,7 +1107,7 @@ span{
       }
 
       .form-input{
-        margin-top: 30px;
+        margin-top: 40px;
         display: flex;
 
         .box{
@@ -1132,11 +1132,13 @@ span{
 
         .box-2{
 
-          margin: 0 20px;
+          margin: 0 15px;
+          cursor: pointer;
 
           p{
-            padding: 10px 20px;
+            padding: 10px 25px;
             opacity: 1;
+            font-weight: 700;
             font-size: 14px;
             color: var(--white-color);
             background-color: var(--orange-color);
@@ -1145,7 +1147,34 @@ span{
             -moz-border-radius: 50px;
             -ms-border-radius: 50px;
             -o-border-radius: 50px;
-}
+
+            &:hover{
+              background-color: var(--black-color);
+              color: var(--white-color);
+            }
+          }
+        }
+
+        .box-3{
+          cursor: pointer;
+
+          i{
+            width: 50px;
+            padding: 11px 0;
+            padding-left: 16px;
+            border: 1px solid #000;
+            border-radius:50px;
+            -webkit-border-radius:50px;
+            -moz-border-radius:50px;
+            -ms-border-radius:50px;
+            -o-border-radius:50px;
+
+            &:hover{
+              background-color: red;
+              color: var(--white-color);
+              border: none;
+            }
+          }
         }
 
       }
