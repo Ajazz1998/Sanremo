@@ -5,7 +5,7 @@
   scroll-behavior: smooth; }
 
 body {
-  line-height: 1.4;
+  line-height: 1.5;
   letter-spacing: 1px;
   font-family: 'Work Sans', sans-serif;
   text-transform: capitalize;
@@ -665,8 +665,7 @@ span {
   display: flex; }
   .checklist .container .main-slide {
     display: flex;
-    width: 40%;
-    /* Container for image text */ }
+    width: 45%; }
     .checklist .container .main-slide .mySlides {
       display: none;
       width: 80%; }
@@ -678,29 +677,22 @@ span {
       display: block; }
     .checklist .container .main-slide .cursor {
       cursor: pointer; }
-    .checklist .container .main-slide .caption-container {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      background-color: #222;
-      padding: 2px 0 0 0;
-      color: white; }
     .checklist .container .main-slide #thumbnail-section {
       width: 20%;
-      margin-top: 30px; }
+      margin-top: 30px;
+      /* Add a opaque effect for thumnbail images */ }
       .checklist .container .main-slide #thumbnail-section img {
         width: 80%;
         border: 1px solid #999;
         padding: 5px 10px;
-        margin: 0;
-        /* Add a opaque effect for thumnbail images */ }
-        .checklist .container .main-slide #thumbnail-section img .demo {
-          opacity: 0.6;
-          transition: .5s; }
-          .checklist .container .main-slide #thumbnail-section img .demo:hover {
-            opacity: 1; }
+        margin: 0; }
+      .checklist .container .main-slide #thumbnail-section .demo {
+        opacity: 0.6;
+        transition: .5s; }
+        .checklist .container .main-slide #thumbnail-section .demo:hover {
+          opacity: 1; }
   .checklist .container .details-check {
-    width: 60%;
+    width: 55%;
     padding: 30px 20px; }
     .checklist .container .details-check p {
       font-size: 15px;
@@ -725,3 +717,38 @@ span {
         .checklist .container .details-check .price .reviews img {
           width: 100px;
           margin-right: 15px; }
+    .checklist .container .details-check .color {
+      margin-top: 15px; }
+      .checklist .container .details-check .color h2 {
+        font-size: 25px; }
+      .checklist .container .details-check .color .co {
+        display: flex;
+        margin-top: 5px; }
+        .checklist .container .details-check .color .co .active {
+          background: #000;
+          border-radius: 70px;
+          color: var(--white-color);
+          -webkit-border-radius: 70px;
+          -moz-border-radius: 70px;
+          -ms-border-radius: 70px;
+          -o-border-radius: 70px; }
+        .checklist .container .details-check .color .co p {
+          margin: 0 2px;
+          opacity: 1;
+          font-size: 13px;
+          border: 1px solid #ccc;
+          padding: 10px 12px;
+          border-radius: 70px;
+          -webkit-border-radius: 70px;
+          -moz-border-radius: 70px;
+          -ms-border-radius: 70px;
+          -o-border-radius: 70px;
+          cursor: pointer;
+          transition: 200ms all ease-in;
+          -webkit-transition: 200ms all ease-in;
+          -moz-transition: 200ms all ease-in;
+          -ms-transition: 200ms all ease-in;
+          -o-transition: 200ms all ease-in; }
+          .checklist .container .details-check .color .co p:hover {
+            background: #000;
+            color: var(--white-color); }
