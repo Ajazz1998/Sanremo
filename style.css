@@ -33,7 +33,8 @@ li {
   list-style: none; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: var(--black-color); }
 
 span {
   color: var(--orange-color);
