@@ -956,16 +956,22 @@ span{
   }
 
   .container {
-    position: relative;
-    width: 40vw;
-    margin: 30px 0;
+    margin-top: 40px;
+    display: flex;
 
     .main-slide{
       display: flex;
+      width: 40%;
 
       .mySlides {
         display: none;
         width: 80%;
+
+        img {
+          width: 100%;
+          padding: 0;
+          margin-bottom: -6px
+        }
       }
       
 
@@ -974,13 +980,6 @@ span{
         display: block;
       }
       
-      .mySlides img {
-        width: 90%;
-        padding: 0;
-        margin-bottom: -6px
-      }
-      
-      /* Add a pointer when hovering over the thumbnail images */
       .cursor {
         cursor: pointer;
       }
@@ -998,32 +997,42 @@ span{
       #thumbnail-section{
         width: 20%;
         margin-top: 30px;
-      }
 
-      
-      .thumbnail img {
+        img {
         width: 80%;
         border: 1px solid #999;
         padding: 5px 10px;
         margin: 0;
-      }
       
       /* Add a opaque effect for thumnbail images */
       .demo {
         opacity: 0.6;
         transition: .5s;
+
+        &:hover {
+          opacity: 1;
+        }
       }
-      
-      .demo:hover {
-        opacity: 1;
+    }
+
+  }
+
+    }
+
+
+    .details-check{
+      width: 60%;
+
+      .price{
+
+        img{
+          width: 100px;
+        }
       }
-      
     }
     
   }
-  
-  /* Hide the images by default */
- 
+   
 }
 
 
