@@ -661,7 +661,7 @@ span {
   height: 10vh; }
 
 .checklist .container {
-  margin-top: 40px;
+  margin: 80px auto;
   display: flex; }
   .checklist .container .main-slide {
     display: flex;
