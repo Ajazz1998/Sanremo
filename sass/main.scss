@@ -1254,11 +1254,63 @@ span{
 @media screen and (max-width: 1100px){
   .header{
 
+    .nav {
+      padding: 10px 50px;
+    }
+
+   .testimonial-switchs {
+      right: 25px;
+    }
+
+    .sale-testimonials-container {
+
+      .sale-testimonial-item{
+        h1{
+          font-size: 55px;
+        }
+        span{
+          font-size: 55px;
+        }
+
+        img{
+          width: 40%;
+        }
+      }
+     }
   }
 
   .row{
     width: 90%;
   }
+
+  .grid-4 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+
+@media screen and (max-width: 1100px){
+  .header{
+
+    .fa-bars{
+      display: block;
+      position: absolute;
+      right: 0;
+    }
+
+    .nav{
+      height: 10vh;
+
+      .top {
+        display: none;
+
+      a{
+        display: block;
+      }
+    }
+    }
+  }
+
 }
 
 
