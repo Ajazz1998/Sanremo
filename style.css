@@ -852,14 +852,26 @@ span {
   .grid-4 {
     grid-template-columns: repeat(3, 1fr); } }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 800px) {
   .header .fa-bars {
     display: block;
     position: absolute;
-    right: 0; }
+    right: 0;
+    margin: 0 30px;
+    outline: none; }
+    .header .fa-bars:hover {
+      color: var(--orange-color); }
   .header .nav {
     height: 10vh; }
+    .header .nav .top_icons {
+      margin-right: 30px; }
     .header .nav .top {
       display: none; }
       .header .nav .top a {
-        display: block; } }
+        display: block; }
+  .grid-4 {
+    grid-template-columns: repeat(2, 1fr); }
+  .blog-container .grid-3 {
+    grid-template-columns: repeat(2, 1fr); }
+  .grid-2 {
+    grid-template-columns: repeat(1, 1fr); } }

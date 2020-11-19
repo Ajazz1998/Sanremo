@@ -117,6 +117,21 @@ let width = carousel.offsetWidth;
 window.addEventListener("resize", e => (width = carousel.offsetWidth));
 
 
+document.getElementById('navbar').addEventListener('click', () => {
+  const navbar = document.getElementById('topbar');
+  const navheight = document.getElementById('barss');
+
+  if(navbar.style.display === 'none'){
+    navbar.style.display = 'block';
+    navheight.style.height = '40vh'
+  }else{
+    navbar.style.display = 'none';
+    navheight.style.height = '10vh'
+
+  }
+})
+
+
 
 
 
