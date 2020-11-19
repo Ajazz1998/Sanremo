@@ -1217,6 +1217,50 @@ span{
    
 }
 
+@media screen and (max-width: 1100px){
+  .header{
+
+    .row{
+      width: 100%;
+    }
+
+    .sale-testimonials-container {
+      padding: 50px 20px;
+     }
+  }
+
+  .row{
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 950px){
+  .header{
+
+    .row{
+      width: 100%;
+    }
+
+    .sale-testimonials-container {
+      padding: 50px 20px;
+     }
+  }
+
+  .row{
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 1100px){
+  .header{
+
+  }
+
+  .row{
+    width: 90%;
+  }
+}
+
 
 
 
