@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="../Resources/animate.css">
     <link rel="stylesheet" href="../style.css">
     <title>Sansung Galaxy</title>
 </head>
@@ -11,17 +12,17 @@
 <secition class="checklist">
 
     <header class="header">
-        <i class="fas fa-bars fa-2x" id="navbar" tabindex="1"></i>
-        <nav class="nav">
-            <a href="../index.html"><div class="logo">Sanremo</div></a>
-            <ul class="top">
+        <nav class="nav" id="barss">
+            <a href="../index.html"><div class="logo wow animated fadeInLeft" data-wow-delay="0.5s">Sanremo</div></a>
+            <ul class="top wow animated fadeInLeft" data-wow-delay="0.4s" id="topbar">
                 <a class="active" href="../index.html">home</a>
                 <a href="#trand">trands</a>
                 <a href="#product">products</a>
                 <a href="#contacts">contact</a>
             </ul>
+            <i class="fas fa-bars fa-2x" id="navbar" tabindex="1"></i>
 
-            <ul class="top_icons">
+            <ul class="top_icons wow animated fadeInRight" data-wow-delay="0.2s">
                 <i class="fas fa-search fa-2x" id="navbar" tabindex="1"></i>
                 <i class="fas fa-user fa-2x" id="navbar" tabindex="1"></i>
             </ul>
@@ -33,7 +34,7 @@
         <main class="container row">
 
 
-            <div class="main-slide">
+            <div class="main-slide wow animated fadeInLeft" data-wow-delay="0.4s">
 
             <section id="thumbnail-section">
                 <div class="thumbnail">
@@ -69,7 +70,7 @@
             </div>
 
 
-            <div class="details-check">
+            <div class="details-check wow animated fadeInRight" data-wow-delay="0.4s">
                 <h2>Samsung Galaxy</h2>
                 <div class="price">
                     <p>£400</p>
@@ -95,7 +96,7 @@
                     <div class="box">
                         <input type="number" value="1" min="0" max="990"/>
                     </div>
-                    <div class="box-2">
+                    <div class="box-2 wow animated swing" data-wow-delay="1s">
                         <p>Add to Cart</p>
                     </div>
                     <div class="box-3">
@@ -174,5 +175,7 @@
   </section>
 
     <script src="./script.js"></script>
+    <script src="../Resources/wow.min.js"></script>
+    <script>new WOW().init();</script>
 </body>
 </html>
