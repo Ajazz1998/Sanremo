@@ -1296,7 +1296,8 @@ span{
       display: block;
       position: absolute;
       right: 0;
-      margin:0 30px;
+      top: 0;
+      margin:15px 30px;
       outline: none;
 
       &:hover{
@@ -1395,6 +1396,10 @@ span{
   .test .main-test .client-testimonials-container {
     padding: 0 20px;
   }
+
+  .offer-sells .box-1 .contents h2 {
+    font-size: 25px;
+}
 
 }
 
