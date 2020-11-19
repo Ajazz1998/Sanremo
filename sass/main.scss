@@ -191,7 +191,7 @@ span{
                      -o-transition: 200ms background ;
                      
                        &:hover{
-                          background: #f6f6f8;
+                          background: transparent;
                           color: var(--black-color);
                           border: 1px solid var(--black-color)
                      }
@@ -1362,6 +1362,10 @@ span{
         }
       }
      }
+  }
+
+  .checklist .container {
+    display: block;
   }
 
 }

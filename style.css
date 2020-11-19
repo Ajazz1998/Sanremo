@@ -147,7 +147,7 @@ span {
           -ms-transition: 200ms background;
           -o-transition: 200ms background; }
           .header .sale-testimonials-container .sale-testimonial-item .colletion a button:hover {
-            background: #f6f6f8;
+            background: transparent;
             color: var(--black-color);
             border: 1px solid var(--black-color); }
       .header .sale-testimonials-container .sale-testimonial-item img {
@@ -883,7 +883,9 @@ span {
 
 @media screen and (max-width: 600px) {
   .header .sale-testimonials-container .sale-testimonial-item img {
-    display: none; } }
+    display: none; }
+  .checklist .container {
+    display: block; } }
 
 @media screen and (max-width: 500px) {
   .grid-4 {
